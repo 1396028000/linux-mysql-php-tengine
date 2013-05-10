@@ -1,8 +1,9 @@
 #!/bin/sh
 
 sudo apt-get update 
+sudo apt-get intsall make -y
 sudo apt-get install git libpcre3 libpcre3-dev openssl libssl-dev -y
-sudo apt-get install  make gcc gcc-c++ libxml2 libxml2-devel autoconf libjpeg libjpeg-devel -y
+sudo apt-get install gcc gcc-c++ libxml2 libxml2-devel autoconf libjpeg libjpeg-devel -y
 sudo apt-get install libpng libpng-devel freetype freetype-devel  -y
 sudo apt-get install zlib zlib-devel glibc glibc-devel glib2 glib2-devel -y
 sudo apt-get install libgeoip-dev -y
